@@ -1,0 +1,95 @@
+.userdetails-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .userdetails-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .user-details div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-details label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .user-details p {
+    margin: 0;
+    font-size: 16px;
+    color: #222;
+    padding: 8px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .user-details input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .user-details input:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+  
+  .user-details button {
+    margin-top: 10px;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .user-details button:first-of-type {
+    background-color: #28a745; /* Save button - green */
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .user-details button:first-of-type:hover {
+    background-color: #218838;
+  }
+  
+  .user-details button:last-of-type {
+    background-color: #dc3545; /* Cancel button - red */
+    color: #fff;
+  }
+  
+  .user-details button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
+  .user-details button:not(:only-child):last-of-type {
+    margin-left: 10px;
+  }
+  
+  .user-details > div:last-child {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
